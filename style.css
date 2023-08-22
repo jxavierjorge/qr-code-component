@@ -1,10 +1,10 @@
 :root{
-    --white: #ffffff
-    --light-gray: #d6e2f0
-    --grayish-blue: #7b879d
-    --dark-blue: #1f3251
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
 }
 
 body{
-    background-color: #d6e2f0;
+    background-color: var(--light-gray);
 }
