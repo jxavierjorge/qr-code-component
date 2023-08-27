@@ -34,8 +34,10 @@ img{
 
 h1{
     color: var(--dark-blue);
+    text-align: center;
 }
 
 p{
     color: var(--grayish-blue);
+    text-align: center;
 }
