@@ -13,7 +13,7 @@ body{
 
 section{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     height: 100vh;
 }
@@ -48,4 +48,10 @@ p{
     font-family: 'Outfit', sans-serif;
 }
 
-/* TODO: Add media queries for responsiveness */
+@media screen and (max-width: 375px) {
+
+    #banner{
+        width: 275px;
+    }
+    
+}
